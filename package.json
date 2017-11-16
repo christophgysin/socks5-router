@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "js-yaml": "^3.10.0",
-    "socksv5": "https://github.com/christophgysin/socksv5"
+    "socksv5": "git+https://github.com/christophgysin/socksv5#fix-normailzeargs"
   }
 }
