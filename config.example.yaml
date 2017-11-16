@@ -1,0 +1,7 @@
+---
+proxy:
+  - host: localhost
+    port: 8080
+    dns: true
+    regex:
+      - 'myhost:.*'

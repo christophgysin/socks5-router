@@ -1,0 +1,15 @@
+{
+  "name": "socksyproxy",
+  "version": "0.1.0",
+  "description": "Forwarding SOCKS proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^3.10.0",
+    "socksv5": "https://github.com/christophgysin/socksv5"
+  }
+}
