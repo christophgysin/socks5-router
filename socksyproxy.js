@@ -50,10 +50,10 @@ function connection(proxies) {
 }
 
 function run() {
-  const host = process.argv[2] || 'localhost';
-  const port = parseInt(process.argv[3] || 1080);
-
   const config = get_config();
+  const host = config.address || 'localhost';
+  const port = config.port || 8888;
+
   const srv = socks.createServer(connection(config.proxy));
   srv.useAuth(socks.auth.None());
   srv.listen(port, host, () => {
